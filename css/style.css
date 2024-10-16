@@ -242,6 +242,71 @@
         color: black;
         border-radius: 2px;
     }
+
+    /* General carousel styling */
+.carousel {
+    position: relative;
+    margin: auto; /* Center the carousel */
+    max-width: 800px; /* Set a maximum width */
+    border: 2px solid #ddd; /* Optional border around the carousel */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure images are contained */
+  }
+  
+  /* Carousel images */
+  .carousel-item img {
+    object-fit: cover; /* Cover the area of the carousel */
+    height: 400px; /* Set a fixed height for images */
+  }
+  
+  /* Control buttons */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjust the width of buttons */
+    opacity: 0.7; /* Slight transparency */
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1; /* Fully visible on hover */
+  }
+  
+  /* Customize icons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
+    border-radius: 50%; /* Circular background */
+  }
+  
+  /* Hide default text for accessibility */
+  .visually-hidden {
+    position: absolute; /* Position off-screen */
+    width: 1px; /* Hide from view */
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  /* Optional: Add a shadow to images */
+  .carousel-item {
+    transition: transform 0.5s ease; /* Smooth transition on slide */
+  }
+  
+  .carousel-item img {
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+  }
+  
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: block;
+    transform: scale(1.1); /* Slight zoom effect on active image */
+  }
+  
      
         /* @MEDIA THIS IS WHAT I FORGOT ABOUT, 
         I WAS WATCHING YOUTUBE VIDEOS ABOUT IT  TRYING TO FIGURE IT OUT A QUICK FIX FOR ALL OF THE ABOVE CSS TO MAKE IT ADJUSTABLE FOR SMALLER SCREENS*/
