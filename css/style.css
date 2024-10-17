@@ -242,74 +242,64 @@
         color: black;
         border-radius: 2px;
     }
+/* CSS adapted from tutorial video on Youtube url(https://www.youtube.com/watch?v%3DMcPdzhLRzCg)*/
+    .container {
+        padding: 2rem;
+    }
 
-    /* General carousel styling */
-.carousel {
-    position: relative;
-    margin: auto; /* Center the carousel */
-    max-width: 800px; /* Set a maximum width */
-    border: 2px solid #ddd; /* Optional border around the carousel */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Ensure images are contained */
-  }
+    .slider-wrapper {
+        position: relative;
+        max-width: 80%;
+        margin: 0 auto;
+    }
   
-  /* Carousel images */
-  .carousel-item img {
-    object-fit: cover; /* Cover the area of the carousel */
-    height: 400px; /* Set a fixed height for images */
-  }
-  
-  /* Control buttons */
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 5%; /* Adjust the width of buttons */
-    opacity: 0.7; /* Slight transparency */
-    transition: opacity 0.3s; /* Smooth transition for hover effect */
-  }
-  
-  .carousel-control-prev:hover,
-  .carousel-control-next:hover {
-    opacity: 1; /* Fully visible on hover */
-  }
-  
-  /* Customize icons */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
-    border-radius: 50%; /* Circular background */
-  }
-  
-  /* Hide default text for accessibility */
-  .visually-hidden {
-    position: absolute; /* Position off-screen */
-    width: 1px; /* Hide from view */
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
-  
-  /* Optional: Add a shadow to images */
-  .carousel-item {
-    transition: transform 0.5s ease; /* Smooth transition on slide */
-  }
-  
-  .carousel-item img {
-    transition: transform 0.5s ease; /* Smooth zoom effect */
-  }
-  
-  .carousel-item-next,
-  .carousel-item-prev,
-  .carousel-item.active {
-    display: block;
-    transform: scale(1.1); /* Slight zoom effect on active image */
-  }
-  
-     
-        /* @MEDIA THIS IS WHAT I FORGOT ABOUT, 
-        I WAS WATCHING YOUTUBE VIDEOS ABOUT IT  TRYING TO FIGURE IT OUT A QUICK FIX FOR ALL OF THE ABOVE CSS TO MAKE IT ADJUSTABLE FOR SMALLER SCREENS*/
+    .slider {
+        display: flex;
+        aspect-ratio: 16 / 9;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        border-radius: 0.5rem;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+     .slider img {
+        max-width: 100%;
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
+     }
+
+     .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+     }
+
+     .slider-nav a {
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        transition: opacity ease 250ms;
+     }
+
+     .slider-nav a:hover {
+        opacity: 1;
+     }
+
+     .slider::-webkit-scrollbar {
+        display: none;
+    }
+         
+        /*I WAS WATCHING YOUTUBE VIDEOS ABOUT IT  TRYING TO FIGURE IT OUT A QUICK FIX FOR ALL OF THE ABOVE CSS TO MAKE IT ADJUSTABLE FOR SMALLER SCREENS*/
         /* I ALSO CHECKED WHAT TYPE OF SCREENS ARE MOST COMMON SO SET MAX 480px FOR MOBILE AND 768px FOR TABLET DEVICES*/
         /* ALL MEDIA CSS WRITTEN AND ADJUSTED BY ME*/
     
@@ -346,6 +336,10 @@
         
         .small { 
             display: none;
+        }
+
+        .container {
+            width: 90%;
         }
     
         #video {
@@ -392,6 +386,10 @@
                 margin: 15px;
                 padding: 20px;
     
+        }
+
+        .container {
+            width: 90%;
         }
 
         .address {
