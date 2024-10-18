@@ -31,25 +31,57 @@
         text-align: center;
         background-color: #e6e6e6;
     }
-        /* NAV CSS BY ME*/
-    
-    nav {
-        background-color: #0b95a2;
-        text-align: center;
-        height: 40px;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-left: 0px;
-        max-width: 100%;
-        height: auto;
-    }
         /* DIV CSS BY ME*/
+        div {
+            border-left: 50px;
+            border-right: 50px;
+            border-top: 20px;
+            border-bottom: 20px
+        }
+
+        /* NAV CSS BY ME*/
+
+    nav {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+        
     
-    div {
-        border-left: 50px;
-        border-right: 50px;
-        border-top: 20px;
-        border-bottom: 20px
+
+    a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .submit {
+        display: flex;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5px;
+        border-radius: 50px;
+        background-color: white
+}
+    .submit:hover {
+        color: white;
+        background-color: #053d42;
+
+    }
+
+    button {
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5px;
+        border-radius: 50px;
+        background-color: #0b95a2;
+    }
+
+    .link {
+        color: #0b95a2;
     }
 
         /* VIDEO CSS BY ME*/
@@ -62,36 +94,28 @@
         border-radius: 2%;
     }
     
-        /* A CSS BY ME*/
-    
-    a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 20px;
-        padding: 0 20px;
-        height: auto;
-        width: auto;
-    }
-    
         /*THOSE PSEUDO CLASSES I TRIED TO WRITE MYSELF BUT FAILED I HAD TO SUPPORT MYSELF WITH CHAT GPT OTHERWISE DID NOT WORK*/
         /* COLORS ADDED BY ME*/
     
+    button:hover {
+        color: white;
+        background-color: #0b95a2;
+        cursor: pointer;
+    }
+
     a:active {
         color: #053d42;
       }
     
     a:hover {
-        color: whitesmoke;
+        color: #053d42;
       }
     
-    a:focus {
-        color: #053d42;
-    }
     
         /* FOOTER CSS BY ME*/
     
     footer {
+
         background-color: #0b95a2;
         color: white;
         text-align: center;
@@ -100,16 +124,23 @@
         position: sticky;
         border-top: 20px;
     }
-    
+
+    .icon {
+        padding-top: 10px;
+    }
+    span {
+        font-size: 20px;
+    }
         /* HEADER_PHOTO CLASS CSS BY ME*/
     
     .header_photo {
         width: 1215px;
         height: 500px;
         max-width: 100%;
-        
     }
-    
+    .logo {
+        max-width: 100%;
+    }
         /* THE id CSS BY ME*/
     
     #the {
@@ -322,8 +353,21 @@
             padding: 2%;
         }
     
-        a {
+        a   { 
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        button {
             font-size: 18px;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: 16px;
+            text-align: center;
         }
         
         .form {
@@ -334,8 +378,8 @@
             width: 80%;
         }
         
-        .small { 
-            display: none;
+        button {
+            font-size: 16px;
         }
 
         .container {
@@ -371,13 +415,16 @@
             font-size: 13px;
             font-weight: 700;
         }
-    
-        .small { 
-                display: none;
-            }
+
+        button {
+            font-size: 14px;
+        }
     
         nav {
-            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: 13px;
             text-align: center;
         }
     
@@ -399,8 +446,8 @@
         }
         
         #video {
-            width: 90%;
-            margin-left: 15px;
+            width: 100%;
+            margin-left: 0px;
         }
     
         .header_photo {
@@ -409,6 +456,14 @@
         }
     
         footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             font-size: 14px;
+            width: 100%;
+        }
+        .container {
+            max-width: 100%;
+            margin-right: 20px;
         }
     }
