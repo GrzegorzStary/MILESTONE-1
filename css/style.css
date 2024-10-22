@@ -50,16 +50,15 @@
         justify-content: center;
         justify-content: space-evenly;
     }
-        
-    
 
     a {
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         text-decoration: none;
         transition: all 0.3s ease;
-        margin-top: 10px;
+        margin-top: 20px;
         color: white;
+        font-size: 20px;
     }
 
     .drones_right {
@@ -113,7 +112,28 @@
     .submit:hover {
         color: white;
         background-color: #053d42;
+        transition: all ease 0.5s;
 
+    }
+    .button {
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5px;
+        padding: 5px;
+        border-radius: 50px;
+        background-color: #0b95a2;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+        color: white;
+    }
+    .button:hover {
+        color: white;
+        background-color: #0b95a2;
+        cursor: pointer;
+        color: #053d42;
     }
 
     button {
@@ -184,6 +204,10 @@
     }
     .logo {
         max-width: 100%;
+    }
+
+    .gallery {
+        margin-left: 10%;
     }
         /* THE id CSS BY ME*/
     
@@ -337,7 +361,6 @@
         box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
         border-radius: 0.5rem;
         scrollbar-width: none;
-        -ms-overflow-style: none;
     }
 
      .slider img {
@@ -358,7 +381,7 @@
      }
 
      .slider-nav a {
-        width: 30px;
+        width: 50px;
         height: 5px;
         border-radius: 50px;
         background-color: #ffffff;
@@ -372,7 +395,7 @@
 
      .slider::-webkit-scrollbar {
         display: none;
-    }
+     }
          
         /*I WAS WATCHING YOUTUBE VIDEOS ABOUT IT  TRYING TO FIGURE IT OUT A QUICK FIX FOR ALL OF THE ABOVE CSS TO MAKE IT ADJUSTABLE FOR SMALLER SCREENS*/
         /* I ALSO CHECKED WHAT TYPE OF SCREENS ARE MOST COMMON SO SET MAX 480px FOR MOBILE AND 768px FOR TABLET DEVICES*/
@@ -398,7 +421,7 @@
         }
     
         a   { 
-            font-size: 13px;
+            font-size: 18px;
             font-weight: 700;
         }
 
@@ -422,7 +445,7 @@
             width: 80%;
         }
         
-        button {
+        .button {
             font-size: 16px;
         }
 
@@ -475,12 +498,12 @@
         }
     
         a   { 
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 700;
         }
 
-        button {
-            font-size: 14px;
+        .button {
+            font-size: 18px;
         }
     
         nav {
@@ -525,6 +548,11 @@
             font-size: 14px;
             width: 100%;
         }
+
+        .slider-nav a {
+            width: 20px;
+        }
+
         .container {
             max-width: 100%;
             margin-right: 20px;
