@@ -24,6 +24,10 @@
         padding: 2%;
         
     }
+
+    .drone_type {
+        margin-left: 10%;
+    }
     
         /* HEADER CSS BY ME*/
     
@@ -56,6 +60,46 @@
         transition: all 0.3s ease;
         margin-top: 10px;
         color: white;
+    }
+
+    .drones_right {
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        border: 1px solid;
+        box-shadow: 8px 10px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .drones_left {
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        border: 1px solid;
+        box-shadow: -10px -8px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .drone_text {
+        width: 50%;
+    }
+
+    .drone_images {
+        width: 40%;
+        height: 250px;
+        object-fit: cover;
+        max-width: 100%;
+        border: solid 2px;
     }
 
     .submit {
@@ -314,7 +358,7 @@
      }
 
      .slider-nav a {
-        width: 5px;
+        width: 30px;
         height: 5px;
         border-radius: 50px;
         background-color: #ffffff;
@@ -394,6 +438,25 @@
         .header_photo {
             height: 300px;
         }
+
+        .drones_right {
+        
+            flex-direction: column;        
+            }
+        
+            .drone_images {
+                width:100%  ;
+                align-self: center;
+            }
+
+            .drones_left {
+        
+                flex-direction: column;        
+                }
+
+                .drone_text {
+                    width: 40%;
+                }
     }
     
     @media (max-width: 480px) {
@@ -466,4 +529,22 @@
             max-width: 100%;
             margin-right: 20px;
         }
+        .drones_right {
+        
+            flex-direction: column;        
+            }
+        
+            .drone_images {
+                width:100%  ;
+                align-self: center;
+            }
+
+            .drones_left {
+        
+                flex-direction: column;        
+                }
+
+                .drone_text {
+                    width: 40%;
+                }
     }
