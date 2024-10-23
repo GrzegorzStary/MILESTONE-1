@@ -270,24 +270,22 @@ WARNING:
 ![Warning](readme/CSS_WARNING.png)
 
 # Accessibility
-The WAVE WebAIM evaluation tools was used to meet high accessibility standards. All pagess pass with zero errors.
-There are two contrast errors regarding footer text. Hovewer all the text is clearly visible. 
-Footer text got the same collor pattern as navbar. 
-Navbar pass with no issues.
+The WAVE WebAIM evaluation tools was used to meet high accessibility standards. All pagess pass with zero errors as well as zero contrast errors.
 
-![indexaim](aim1.png)
-![indexfooteraim](aim2.png)
-![commercialaim](aim3.png)
-![hobbyaim](aim5.png)
-![contactaim](aim4.png)
+![home](readme/home_wave.png)
+![commercial](readme/commercial_wave.png)
+![hobby](readme/hobby_wave.png)
+![gallery](readme/gallery_wave.png)
+![contact](readme/contact_wave.png)
 
 ### Performance
 Performance tested on all four pages.
 
-![indexperformance](indexperformance.png)
-![commercialperformance](commercialperformance.png)
-![hobbyperformance](hobbyperformance.png)
-![contactperformance](contactperformance.png)
+![home](readme/home_perform.png)
+![commercial](readme/commercial_perform.png)
+![hobby](readme/hobby_perform.png)
+![gallery](readme/gellery_perform.png)
+![contact](readme/contact_perform.png)
 
 ### Performing tests on various devices
 The website was tested on following devices:
@@ -468,7 +466,7 @@ In the future, i would like to add the following features:
 - In the GitHub repository navigate to the Settings tab
 - On the left hand menu select Pages
 - For the source select Branch: main
-- After the webpage refreshes automaticaly you will see: Your site is live at https://grzegorzstary.github.io/Milestone1/
+- After the webpage refreshes automaticaly you will see: Your site is live at https://grzegorzstary.github.io/MILESTONE-1/
 
 ### You can fork the repository by following these steps:
 
@@ -497,5 +495,6 @@ In the future, i would like to add the following features:
 
 - Firstly I would like to thank to myself for perstistance and not giving up in creating this project.
 - Big thank you to the Code Institute and my Teacher Ross Phillips for providing me with easy to understand knowledge.
+- Thank you to my mentor Gareth for providing me with important feedback, as well as improvement ideas.
 - Thank to my wife for taking care of our child so that I culd focus and make that website happen.
 - Thank you to all the people that found little bit of time in theirs busy lifes to test my website and give me some ideas what could be changed and adjusted.
