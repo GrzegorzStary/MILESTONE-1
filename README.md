@@ -95,12 +95,12 @@ The webpage was designed to evoke the feeling of professionalism, and as well as
 ### Colour
 The colour scheme was choosen for its good contrast and for modern appeal. The colors also matchiong company logo. AI color generator, <https://looka.com/logo-maker/> which inspired the color palette that I finally landed on.
 
-![Colour palette](https://raw.githubusercontent.com/GrzegorzStary/Milestone1/refs/heads/main/palette.png)
+![Colour palette](readme/palette.png)
 
 ### Fonts
 Montserrat with sans saris as a fallback was used for the body of entire website. Font weight 400. 
 
-![Fonts](font.png)
+![Fonts](readme/font.png)
 
 ### Structure
 The structure of the page is build in a recognisable and intuitive format. Upon arriving to the werbsite user sees a familiar type of a drone in motion. Stardrone name and logo above it.
@@ -239,21 +239,35 @@ Below the image is located navigation bar that contain four easly visible and re
  - All four pages passed W3C Markup Validation Service
 
 ## Home
-![homevalidation](homevalidator.png)
+![homevalidation](readme/html_index.png)
 
 ## Commercial
-![commercialvalidation](commercialvalidator.png)
+![commercialvalidation](readme/html_comercial.png)
 
 ## Hobby
-![hobbyvalidator](hobbyvalidator.png)
+![hobbyvalidator](readme/html_hobby.png)
+
+## Gallery
+![gelleryvalidator](readme/html_gallery.png)
 
 ## Contact
-![contactvalidator](contactvalidator.png)
+![contactvalidator](readme/html_contact.png)
+
+## 404
+![404page](readme/html_404.png)
+
+## Thank you page
+![ThankYou](readme/html_thankyou.png)
 
 # CSS Validation
-The W3C Jigsaw CSS Validation Service was used to validate CSS of the website.
+The W3C Jigsaw CSS Validation Service was used to validate CSS of the website. 
+Shows 1 unavoidable warning it is due to using pseudo class to remove dafault slider bar from galley.
 
-![cssvalidator](cssvalidator.png)
+![cssvalidator](readme/CSS_VALIDATOR.png)
+
+WARNING:
+
+![Warning](readme/CSS_WARNING.png)
 
 # Accessibility
 The WAVE WebAIM evaluation tools was used to meet high accessibility standards. All pagess pass with zero errors.
