@@ -85,14 +85,14 @@
         <div class="form">
 
                 <p><label for="name">Name:</label></p>
-                <input type="text" placeholder="Enter your Name" aria-label="Enter your name Field" id="name" required>
+                <input type="text" placeholder="Enter your Name" aria-label="Enter your name Field required" id="name" required>
            
                 <p><label for="number">Your number:</label></p>
             <!-- This is input adjusted by ChatGPT because tel accepted also letters. Now only digits and up to 14 digits only. -->
-                <input type="tel" placeholder="Contact Number" aria-label="Enter your contact number" id="number" maxlength="14" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+                <input type="tel" placeholder="Contact Number" aria-label="Enter your contact number required" id="number" maxlength="14" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
            
                 <p><label for="email">Email:</label></p>
-                <input type="email" required placeholder="Enter your Email" aria-label="Enter your email address" id="email">
+                <input type="email" required placeholder="Enter your Email" aria-label="Enter your email address required" id="email">
 
                 <p><label for="commercial">Commercial Drone?</label>
                     <input type="radio" aria-label="Is your question about Commercial drones?" id="commercial" name="drone_type" value="commercial">
@@ -101,9 +101,9 @@
                     <input type="radio" aria-label="Is your question about Hobby drones?" id="hobby" name="drone_type" value="hobby"></p>
             
             <p><label for="text">Message:</label></p>
-            <textarea name="text" id="text" rows="5" required placeholder="Your Message" aria-label="Enter your message"></textarea>
+            <textarea name="text" id="text" rows="5" required placeholder="Your Message" aria-label="Enter your message field required"></textarea>
 
-            <p><button class="submit" value="thankyou.html">Submit!</button></p>
+            <p><button class="submit" value="thankyou.html" aria-label="Press to submit the form">Submit!</button></p>
         </div>
     </form>
 

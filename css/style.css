@@ -131,9 +131,8 @@
     }
     .button:hover {
         color: white;
-        background-color: #0b95a2;
+        background-color: #086068;
         cursor: pointer;
-        color: #053d42;
     }
 
     button {
@@ -145,7 +144,7 @@
     }
 
     .link {
-        color: #0b95a2;
+        color: #086068;
     }
 
         /* VIDEO CSS BY ME*/
@@ -163,16 +162,16 @@
     
     button:hover {
         color: white;
-        background-color: #0b95a2;
+        background-color: #086068;
         cursor: pointer;
     }
 
     a:active {
-        color: #053d42;
+        color: #0b95a2;
       }
     
     a:hover {
-        color: #053d42;
+        color: #0b95a2;
       }
     
     
@@ -180,7 +179,7 @@
     
     footer {
 
-        background-color: #0b95a2;
+        background-color: #086068;
         color: white;
         text-align: center;
         font-weight: 700;
@@ -240,8 +239,9 @@
         margin-left: 8%;
         padding: 20px;
         border-radius: 20px;
-        background-color: #0b95a2;
-        margin-bottom: 20px
+        background-color: #086068;
+        margin-bottom: 20px;
+        color: white;
     }
 
 /* Address class and atribute as well as class p, all written BY ME*/
@@ -253,7 +253,7 @@
         margin-left: 8%;
         padding: 20px;
         border-radius: 20px;
-        background-color: #0b95a2;
+        background-color: #086068;
         margin-bottom: 20px;
         color: white;
         text-align: center;
