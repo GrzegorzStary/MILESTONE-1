@@ -1,3 +1,5 @@
+![Mockup](readme/user_stories_screens/mockup.png)
+
 # Table of content
 
 ### Project Goals
@@ -180,6 +182,10 @@ Below the image is located navigation bar that contain five easly visible and re
 - Google Maps
 - Looka.com
 - Openai ChatGPT
+- Free Mockup generator
+- Youtube
+- Google Images
+- Visual Studio Code
 
 # Features
 
@@ -228,6 +234,15 @@ Below the image is located navigation bar that contain five easly visible and re
 - Submit! button to submit a form.
 - Responsive design.
 
+### 404 Page
+- The website contain basic 404 page in case the user make a typo while manual entering of the page.
+- From the 404 Page the user may choose any tab of our page and me safely redirected to the content of our website.
+
+### Thank you page
+- This page is showing up after succesful form submission.
+- The thank you page will refresh itself after 5 senconds and redirect the user back to the Home Page.
+
+  
 ### Google Map
 - Large and easy to understand map of our approximate location. 
 - Map is set to load from further distance to show nearest motorways and juctions as well as massive Birmingham Airport that customers may use as a direction on road traffic signs.
@@ -533,7 +548,7 @@ In the future, i would like to add the following features:
 
 - There was no too long code taken from anywhere this is why I will not include anything here. Everythin borrowed from external source is marked within the HTML / CSS code.
 - The gallery was created by following Youtube tutorial and its completed with HTML and CSS only without involvment of JavaScript.
-- Code was in 95% written by myself.
+- Code was in 95% written by myself (the percentage is just an indicator).
 
 # Acknowledgements
 
