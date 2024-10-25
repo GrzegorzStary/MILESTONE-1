@@ -43,6 +43,7 @@
 - Customer to find a information about variety of drones they are interested.
 - Finding information about types of drone.
 - Find nearest location (parking where the store is located).
+- Find Gallery with additional drone images.
 - Contact form to get more informations about the drone.
 
 ### Site Owner Goals
@@ -74,6 +75,7 @@
 - As a first time user, I want to know the prices.
 - As a first time user, I want to know more about types of drones.
 - As a first time user, I want to know more about uses of a drone.
+- As a first time user, I want to see actual footage from the drone.
 
 #### Returning User
 - As a returning user, I want to see the location.
@@ -85,6 +87,7 @@
 - As the site owner, I want users to know the drone shop and trust us with our expertise.
 - As the site owner, I want the users to be able to contact us.
 - As the site owner, I want to capture new busness with the contact form and store data safely.
+- As the site owner, I want the users to be able to see how the actual images from the drone may look like.
 - As the site owner, I want the users to find our location.
 
 # Design
@@ -104,73 +107,65 @@ Montserrat with sans saris as a fallback was used for the body of entire website
 
 ### Structure
 The structure of the page is build in a recognisable and intuitive format. Upon arriving to the werbsite user sees a familiar type of a drone in motion. Stardrone name and logo above it.
-Below the image is located navigation bar that contain four easly visible and recognisable pages.
+Below the image is located navigation bar that contain five easly visible and recognisable pages.
 
 - A home page with informations about Stardrone and why customer suppose to trust us, as well as video presenting first person view of a drone mid flight.
 - Commercial drone page where the commercial customer niche can see opportunities to grow their business by choosing right drone for the type of business they are commercing.
-- Hobby drone page where every day parson without specialised needs such as hobbyost can find great drone for them. 
+- Hobby drone page where every day parson without specialised needs such as hobbyost can find great drone for them.
+- Gallery page where all of the users may enjoy some actual images captured from the drone. Those are actual images from my drone during my Snowdon hike.
 - Contact page with additional convincing text why customer should choose us. The contact us form right underneth, as well as map to the nearest free parking next to our store.
 
 ### Wireframes
 
 1. Home
 - Computer Screen
-  
-   ![computer](indexbig1.png)
-   ![computer](indexbig2.png)
+   ![computer](readme/home_page.png)
+
+- Tablet Screen
+  ![tablet](readme/Home_tablet.png)
   
 - Cellphone Screen
-  
-  ![cell](indexsmall1.png)
-  ![cell](indexsmall2.png)
-  ![cell](indexsmall3.png)
+  ![cell](readme/Home_cell.png)
    
 2. Commercial
 - Computer Screen
-  
-  ![computer](combig1.png)
-  ![computer](combig2.png)
-  ![computer](combig3.png)
+   ![computer](readme/commercial_drones.png)
 
-- Cellphone Screen
+- Tablet Screen
+  ![tablet](readme/Commercial_tablet.png)
   
-  ![cell](comsm1.png)
-  ![cell](comsm2.png)
-  ![cell](comsm3.png)
-  ![cell](comsm4.png)
+- Cellphone Screen
+  ![cell](readme/Commercial_cell.png)
 
 3. Hobby
-   - Computer Screen
-     
-  ![computer](hobbig1.png)
-  ![computer](hobbig2.png)
-  ![computer](hobbig3.png)
+- Computer Screen
+   ![computer](readme/hobby_drones.png)
 
-- Cellphone Screen
+- Tablet Screen
+  ![tablet](readme/Hobby_tablet.png)
   
-  ![cell](hobsm1.png)
-  ![cell](hobsm2.png)
-  ![cell](hobsm3.png)
-  ![cell](hobsm4.png)
-
-4. Contact
-   - Computer Screen
-     
-  ![computer](contbig1.png)
-  ![computer](contbig2.png)
-  ![computer](contbig3.png)
-  ![computer](contbig4.png)
-  ![computer](contbig5.png)
-  ![computer](contbig6.png)
-
 - Cellphone Screen
+  ![cell](readme/Hobby_cell.png)
+
+4. Gallery
+   - Computer Screen
+   ![computer](readme/gallery.png)
+
+- Tablet Screen
+  ![tablet](readme/Gallery_tablet.png)
   
-  ![cell](contsm1.png)
-  ![cell](contsm2.png)
-  ![cell](contsm3.png)
-  ![cell](contsm4.png)
-  ![cell](contsm5.png)
-  ![cell](contsm6.png)
+- Cellphone Screen
+  ![cell](readme/Gallery_cell.png)
+
+5. Contact
+  - Computer Screen
+   ![computer](readme/contact_us.png)
+
+- Tablet Screen
+  ![tablet](readme/Contact_tablet.png)
+  
+- Cellphone Screen
+  ![cell](readme/Contact_cell.png)
 
 # Technologies Used
 
@@ -188,9 +183,8 @@ Below the image is located navigation bar that contain four easly visible and re
 # Features
 
 ### Logo and Navigation Bar
-- Featured on all four pages
-- Navbar is responsive and shrinking to smaller size of fonts to fit text within a navbar on smaller screens.
-- On Small screen Home button is disappering, to comeback to Home user need to click Logo on the top of the page.
+- Featured on all five pages
+- Navbar is responsive and shrinking to smaller size as well as position for the bar changing from row to column.
 - It allow users to navigate the page 
 - Stays below main image
 - Logo is clickable and it will re-direct user back to the home page when clicked.
@@ -208,7 +202,7 @@ Below the image is located navigation bar that contain four easly visible and re
 - Video of a flying drone and the view from its front camera.
 
 ### Footer
-- Featured on all four pages
+- Featured on all five pages
 - Contain three separate logos to our social media all open in the new tab.
 
         --> Facebook 
@@ -218,13 +212,19 @@ Below the image is located navigation bar that contain four easly visible and re
 - Include copytights to StarDrone 2024
 - Responsive design
 - Stick to the bottom
+- On smaller screens the footer position itself from row to column.
+
+### Gallery
+- Simple gallery code written in HTML and CSS
+- Gallery containing 4 (four images)
+- Images can be changed by the user by clicking on one of four bars visibly located on the image.
 
 ### Contact form
 - Simple form for a user that require more informations about a drones, 
 - Form include 3 fields for Name, Number, Email:
 - 2 radio buttons regarding type of a drone they are looking foor.
 - Message field to write a message with a specific question.
-- Send! button to submit a form.
+- Submit! button to submit a form.
 - Responsive design.
 
 ### Google Map
@@ -270,24 +270,22 @@ WARNING:
 ![Warning](readme/CSS_WARNING.png)
 
 # Accessibility
-The WAVE WebAIM evaluation tools was used to meet high accessibility standards. All pagess pass with zero errors.
-There are two contrast errors regarding footer text. Hovewer all the text is clearly visible. 
-Footer text got the same collor pattern as navbar. 
-Navbar pass with no issues.
+The WAVE WebAIM evaluation tools was used to meet high accessibility standards. All pagess pass with zero errors as well as zero contrast errors.
 
-![indexaim](aim1.png)
-![indexfooteraim](aim2.png)
-![commercialaim](aim3.png)
-![hobbyaim](aim5.png)
-![contactaim](aim4.png)
+![home](readme/home_wave.png)
+![commercial](readme/commercial_wave.png)
+![hobby](readme/hobby_wave.png)
+![gallery](readme/gallery_wave.png)
+![contact](readme/contact_wave.png)
 
 ### Performance
 Performance tested on all four pages.
 
-![indexperformance](indexperformance.png)
-![commercialperformance](commercialperformance.png)
-![hobbyperformance](hobbyperformance.png)
-![contactperformance](contactperformance.png)
+![home](readme/home_perform.png)
+![commercial](readme/commercial_perform.png)
+![hobby](readme/hobby_perform.png)
+![gallery](readme/gellery_perform.png)
+![contact](readme/contact_perform.png)
 
 ### Performing tests on various devices
 The website was tested on following devices:
@@ -318,13 +316,11 @@ The website was tested on following browsers:
 
 ![where](wherelocated1.png)
 
-
-![where](wherelocated2.png)
-![where](wherelocated3.png)
-![where](wherelocated4.png)
-![where](wherelocated5.png)
-![where](wherelocated6.png)
-
+- As a first time user, I want to see actual footage from the drone.
+| Feature | Action | Result | Expected Result
+|:-----------|:------:|:------:|------------:|
+|Navbar| Choose from the nav bar Gallery:, scroll down | Visible gallery with scroll bars | Works as expected |
+  
 
 - As a first time user, I want to know the prices and more about types as well as uses of a drone.
 
@@ -335,13 +331,6 @@ The website was tested on following browsers:
 
 ![kinds](kinds1.png)
 
-![kinds](kinds2.png)
-![kinds](kinds3.png)
-![kinds](kinds4.png)
-![kinds](kinds5.png)
-![kinds](kinds6.png)
-![kinds](kinds7.png)
-
 #### RETURNING USER:
 
 - As a returning user, I want to see the location.
@@ -350,10 +339,7 @@ The website was tested on following browsers:
 |:--------|:------:|:------:|---------------:|
 Navbar| Choose "Contact" scroll down to see the map with pinned location | Visible google map from with motorway connections | Works as expected|
 
-![where](wherelocated1.png)
-
-![where](wherelocated2.png)
-![where](wherelocated6.png)
+![kinds](kinds1.png)
 
 - As a returning user, I want to easily contact the shop.
 
@@ -363,8 +349,6 @@ Navbar| Choose "Contact" scroll down to see the address | Visible address | Work
 
 ![where](wherelocated1.png)
 
-![where](wherelocated2.png)
-![where](wherelocated5.png)
 
 - As a returning user, I want to find the drone shop on social media.
 
@@ -373,7 +357,6 @@ Navbar| Choose "Contact" scroll down to see the address | Visible address | Work
 Footer| Scroll down to see the footer with social media pages. | Visible footer and clickable logos | Works as expected|
 
 ![social](social1.png)
-![social](social2.png)
 
 
 #### Site Owner
@@ -387,6 +370,7 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Footer | Scroll to the bottom of any page | See the footer click any logo | Works as expected |
 | Commercial | Use navigation bar and click commercial| See the commercial types of drones | Works as expected |
 | Hobby | Use navigation bar and click hobby | See the commercial types of drones | Works as expexcted |
+|Gallery| Use navigation bar and click gallery | See the gallery with four actual images | Works as expected |
 | Contact | Use navigation bar and click "contact" then scroll down to see overwiev | See the overview | Works as expected|
 | Form | Use navigation bar and click "contact" scroll down to see the form | See the contact form | Works as expected |
 | Address | Use navigation bar and click "contact" scroll down below the form to se tha address | See the address field. | Works as expected |
@@ -394,13 +378,7 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Logo | From any page click logo on top of the page to comeback to home| Click logo | Works as expected |
 
 ![biz](biz1.png)
-![biz](biz2.png)
-![biz](wherelocated5.png)
-![biz](wherelocated3.png)
-![biz](wherelocated4.png)
-![biz](wherelocated5.png)
-![biz](wherelocated6.png)
-![biz](biz3.png)
+
 
 
 - As the site owner, I want users to know the drone shop and trust us with our expertise.
@@ -468,7 +446,7 @@ In the future, i would like to add the following features:
 - In the GitHub repository navigate to the Settings tab
 - On the left hand menu select Pages
 - For the source select Branch: main
-- After the webpage refreshes automaticaly you will see: Your site is live at https://grzegorzstary.github.io/Milestone1/
+- After the webpage refreshes automaticaly you will see: Your site is live at https://grzegorzstary.github.io/MILESTONE-1/
 
 ### You can fork the repository by following these steps:
 
@@ -485,17 +463,21 @@ In the future, i would like to add the following features:
 
 - There were many bugs on the website, most of them related to poor responsiveness and alignment issues with the boxes on the site. These bugs were fixed by adjusting values within the CSS file.
 - Another issue was with the contact form: the number field was accepting both numbers and letters. This was fixed with a slight adjustment, thanks to ChatGPT, as I didn't have enough knowledge to resolve it on my own.
+- There were issues with the scroll bar of Gallery the "clickable buttons" to scroll the page were invisible.
 - The website initially lacked a box for the address, which was added later.
 - Currently, there are no known bugs remaining.
   
 # Code
 
 - There was no too long code taken from anywhere this is why I will not include anything here. Everythin borrowed from external source is marked within the HTML / CSS code.
+- The gallery was created by following Youtube tutorial and its completed with HTML and CSS only without involvment of JavaScript.
 - Code was in 95% written by myself.
 
 # Acknowledgements
 
 - Firstly I would like to thank to myself for perstistance and not giving up in creating this project.
 - Big thank you to the Code Institute and my Teacher Ross Phillips for providing me with easy to understand knowledge.
+- Thank you to my mentor Gareth for providing me with important feedback, as well as improvement ideas.
 - Thank to my wife for taking care of our child so that I culd focus and make that website happen.
+- Thank you for my web developer friend from Turkey who actually spent some time to test my page and gave me important feedback what could go wrong.
 - Thank you to all the people that found little bit of time in theirs busy lifes to test my website and give me some ideas what could be changed and adjusted.
