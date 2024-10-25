@@ -369,7 +369,10 @@ The website was tested on following browsers:
 |:--------|:------:|:------:|---------------:|
 Navbar| Choose "Contact" scroll down to see the map with pinned location | Visible google map from with motorway connections | Works as expected|
 
-![kinds](kinds1.png)
+![location](readme/user_stories_screens/where_home.png)
+![location](readme/user_stories_screens/where_contact.png)
+![location](readme/user_stories_screens/where_located.png)
+![location](readme/user_stories_screens/where_map.png)
 
 - As a returning user, I want to easily contact the shop.
 
@@ -377,8 +380,10 @@ Navbar| Choose "Contact" scroll down to see the map with pinned location | Visib
 |:--------|:------:|:------:|---------------:|
 Navbar| Choose "Contact" scroll down to see the address | Visible address | Works as expected|
 
-![where](wherelocated1.png)
-
+![contact](readme/user_stories_screens/where_home.png)
+![contact](readme/user_stories_screens/where_contact.png)
+![contact](readme/user_stories_screens/form1.png)
+![contact](readme/user_stories_screens/form2.png)
 
 - As a returning user, I want to find the drone shop on social media.
 
@@ -386,7 +391,8 @@ Navbar| Choose "Contact" scroll down to see the address | Visible address | Work
 |:--------|:------:|:------:|---------------:|
 Footer| Scroll down to see the footer with social media pages. | Visible footer and clickable logos | Works as expected|
 
-![social](social1.png)
+![social](readme/user_stories_screens/social2.png)
+![social](readme/user_stories_screens/social1.png)
 
 
 #### Site Owner
@@ -407,7 +413,28 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Map | Use navigation bar and click "contact" scroll down to the bottom of the page | Visible google map | Works as expected|
 | Logo | From any page click logo on top of the page to comeback to home| Click logo | Works as expected |
 
-![biz](biz1.png)
+![biz](readme/user_stories_screens/video_location.png)
+![biz](readme/user_stories_screens/video_play.png)
+![biz](readme/user_stories_screens/social1.png)
+
+
+![biz](readme/user_stories_screens/drone_types.png)
+![biz](readme/user_stories_screens/commercial_type1.png)
+![biz](readme/user_stories_screens/hobby_type1.png)
+
+
+![biz](readme/user_stories_screens/gallery.png)
+![biz](readme/user_stories_screens/galerry_look.png)
+
+
+![biz](readme/user_stories_screens/where_home.png)
+![biz](readme/user_stories_screens/form1.png)
+![biz](readme/user_stories_screens/where_located.png)
+![biz](readme/user_stories_screens/where_map.png)
+
+
+![biz](readme/user_stories_screens/logo.png)
+
 
 
 
@@ -418,14 +445,19 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Hobby | Chose Hobby from the nav bar and scroll down | Visible hobby drone types | Works as expected |
 | Commercial | Choose Commercial from the nav bar and scroll down | Visible commercial drones | Works as expected |
 
-![kinds](kinds1.png)
+![kinds](readme/user_stories_screens/drone_types.png)
+### Commercial
+![kinds](readme/user_stories_screens/commercial_type1.png)
+![kinds](readme/user_stories_screens/commercial_type2.png)
+![kinds](readme/user_stories_screens/commercial_type3.png)
+![kinds](readme/user_stories_screens/commercial_type4.png)
 
-![kinds](kinds2.png)
-![kinds](kinds3.png)
-![kinds](kinds4.png)
-![kinds](kinds5.png)
-![kinds](kinds6.png)
-![kinds](kinds7.png)
+### Hobby
+![kinds](readme/user_stories_screens/hobby_type1.png)
+![kinds](readme/user_stories_screens/hobby_type2.png)
+![kinds](readme/user_stories_screens/hobby_type3.png)
+![kinds](readme/user_stories_screens/hobby_type4.png)
+![kinds](readme/user_stories_screens/hobby_type5.png)
 
 - As the site owner, I want the users to be able to contact us.
 
@@ -433,9 +465,9 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible contact details | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated5.png)
+![contact](readme/user_stories_screens/where_home.png)
+![contact](readme/user_stories_screens/where_contact.png)
+![contact](readme/user_stories_screens/form2.png)
 
 
 - As the site owner, I want the users to be able to find us.
@@ -444,9 +476,9 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible map | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated6.png)
+![map](readme/user_stories_screens/where_home.png)
+![map](readme/user_stories_screens/where_contact.png)
+![map](readme/user_stories_screens/where_map.png)
 
 - As the site owner, I want to capture new busness with the contact form and store data safely.
 
@@ -454,10 +486,10 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible contact form | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated3.png)
-![where](wherelocated4.png)
+![form](readme/user_stories_screens/where_home.png)
+![form](readme/user_stories_screens/where_contact.png)
+![form](readme/user_stories_screens/form1.png)
+
 
 
 # Future Features
