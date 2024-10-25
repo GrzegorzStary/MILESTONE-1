@@ -115,62 +115,53 @@ Below the image is located navigation bar that contain four easly visible and re
 
 1. Home
 - Computer Screen
-  
-   ![computer](indexbig1.png)
-   ![computer](indexbig2.png)
+   ![computer](readme/home_page.png)
+
+- Tablet Screen
+  ![tablet](readme/Home_tablet.png)
   
 - Cellphone Screen
-  
-  ![cell](indexsmall1.png)
-  ![cell](indexsmall2.png)
-  ![cell](indexsmall3.png)
+  ![cell](readme/Home_cell.png)
    
 2. Commercial
 - Computer Screen
-  
-  ![computer](combig1.png)
-  ![computer](combig2.png)
-  ![computer](combig3.png)
+   ![computer](readme/commercial_drones.png)
 
-- Cellphone Screen
+- Tablet Screen
+  ![tablet](readme/Commercial_tablet.png)
   
-  ![cell](comsm1.png)
-  ![cell](comsm2.png)
-  ![cell](comsm3.png)
-  ![cell](comsm4.png)
+- Cellphone Screen
+  ![cell](readme/Commercial_cell.png)
 
 3. Hobby
-   - Computer Screen
-     
-  ![computer](hobbig1.png)
-  ![computer](hobbig2.png)
-  ![computer](hobbig3.png)
+- Computer Screen
+   ![computer](readme/hobby_drones.png)
 
-- Cellphone Screen
+- Tablet Screen
+  ![tablet](readme/Hobby_tablet.png)
   
-  ![cell](hobsm1.png)
-  ![cell](hobsm2.png)
-  ![cell](hobsm3.png)
-  ![cell](hobsm4.png)
-
-4. Contact
-   - Computer Screen
-     
-  ![computer](contbig1.png)
-  ![computer](contbig2.png)
-  ![computer](contbig3.png)
-  ![computer](contbig4.png)
-  ![computer](contbig5.png)
-  ![computer](contbig6.png)
-
 - Cellphone Screen
+  ![cell](readme/Hobby_cell.png)
+
+4. Gallery
+   - Computer Screen
+   ![computer](readme/gallery.png)
+
+- Tablet Screen
+  ![tablet](readme/Gallery_tablet.png)
   
-  ![cell](contsm1.png)
-  ![cell](contsm2.png)
-  ![cell](contsm3.png)
-  ![cell](contsm4.png)
-  ![cell](contsm5.png)
-  ![cell](contsm6.png)
+- Cellphone Screen
+  ![cell](readme/Gallery_cell.png)
+
+5. Contact
+  - Computer Screen
+   ![computer](readme/contact_us.png)
+
+- Tablet Screen
+  ![tablet](readme/Contact_tablet.png)
+  
+- Cellphone Screen
+  ![cell](readme/Contact_cell.png)
 
 # Technologies Used
 
