@@ -543,8 +543,8 @@
     
         footer {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            flex-direction: row;
+            justify-content: space-evenly;
             font-size: 14px;
             width: 100%;
         }
