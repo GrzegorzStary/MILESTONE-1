@@ -76,6 +76,7 @@
 - As a first time user, I want to know more about types of drones.
 - As a first time user, I want to know more about uses of a drone.
 - As a first time user, I want to see actual footage from the drone.
+- As a first time user, I want to see video footage.
 
 #### Returning User
 - As a returning user, I want to see the location.
@@ -314,13 +315,30 @@ The website was tested on following browsers:
 | Address  | Scroll down to see the address.| Works as expected |
 | Map | Scorll further to see the map. | See a map showing drone store location | Works as expected |
 
-![where](wherelocated1.png)
+![where](readme/user_stories_screens/where_home.png)
+![where](readme/user_stories_screens/where_contact.png)
+![where](readme/user_stories_screens/where_located.png)
+![where](readme/user_stories_screens/where_map.png)
 
 - As a first time user, I want to see actual footage from the drone.
+  
 | Feature | Action | Result | Expected Result
 |:-----------|:------:|:------:|------------:|
-|Navbar| Choose from the nav bar Gallery:, scroll down | Visible gallery with scroll bars | Works as expected |
-  
+|Navbar | Choose from the nav bar Gallery: scroll down | Visible gallery with scroll bars (click one of the bar to scroll) | Works as expected | |
+
+![gellery](readme/user_stories_screens/gallery.png)
+![gellery](readme/user_stories_screens/galerry_look.png)
+![gellery](readme/user_stories_screens/gallery_buttons.png)
+![gellery](readme/user_stories_screens/gallery_change.png)
+
+-As a first time user, I want to see video footage.
+
+| Feature | Action | Result | Expected Result
+|:-----------|:------:|:------:|------------:|
+|Home Page| Scroll down the page until you will see youtube player inbeded. | Visible video player | Works as expected | |
+
+![video](readme/user_stories_screens/video_location.png)
+![video](readme/user_stories_screens/video_play.png)
 
 - As a first time user, I want to know the prices and more about types as well as uses of a drone.
 
@@ -329,7 +347,19 @@ The website was tested on following browsers:
 |Navbar| Choose from the nav bar Commercial for comerrcial drones and scroll down to see drone types, description and prices next to specific drone. | Visible prices ranges | Works as expected | |
 |Navbar| Choose from the nav bar Hobby for hobby drones and scroll down to see drone types, description and prices next to specific drone. |Visible prices ranges | Works as expected | |
 
-![kinds](kinds1.png)
+![types](readme/user_stories_screens/drone_types.png)
+
+### COMMERCIAL
+![types](readme/user_stories_screens/commercial_type1.png)
+![types](readme/user_stories_screens/commercial_type2.png)
+![types](readme/user_stories_screens/commercial_type3.png)
+![types](readme/user_stories_screens/commercial_type4.png)
+### HOBBY
+![types](readme/user_stories_screens/hobby_type1.png)
+![types](readme/user_stories_screens/hobby_type2.png)
+![types](readme/user_stories_screens/hobby_type3.png)
+![types](readme/user_stories_screens/hobby_type4.png)
+![types](readme/user_stories_screens/hobby_type5.png)
 
 #### RETURNING USER:
 
