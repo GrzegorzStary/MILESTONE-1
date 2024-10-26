@@ -1,3 +1,5 @@
+![Mockup](readme/user_stories_screens/mockup.png)
+
 # Table of content
 
 ### Project Goals
@@ -76,6 +78,7 @@
 - As a first time user, I want to know more about types of drones.
 - As a first time user, I want to know more about uses of a drone.
 - As a first time user, I want to see actual footage from the drone.
+- As a first time user, I want to see video footage.
 
 #### Returning User
 - As a returning user, I want to see the location.
@@ -179,6 +182,10 @@ Below the image is located navigation bar that contain five easly visible and re
 - Google Maps
 - Looka.com
 - Openai ChatGPT
+- Free Mockup generator
+- Youtube
+- Google Images
+- Visual Studio Code
 
 # Features
 
@@ -227,6 +234,15 @@ Below the image is located navigation bar that contain five easly visible and re
 - Submit! button to submit a form.
 - Responsive design.
 
+### 404 Page
+- The website contain basic 404 page in case the user make a typo while manual entering of the page.
+- From the 404 Page the user may choose any tab of our page and me safely redirected to the content of our website.
+
+### Thank you page
+- This page is showing up after succesful form submission.
+- The thank you page will refresh itself after 5 senconds and redirect the user back to the Home Page.
+
+  
 ### Google Map
 - Large and easy to understand map of our approximate location. 
 - Map is set to load from further distance to show nearest motorways and juctions as well as massive Birmingham Airport that customers may use as a direction on road traffic signs.
@@ -314,13 +330,30 @@ The website was tested on following browsers:
 | Address  | Scroll down to see the address.| Works as expected |
 | Map | Scorll further to see the map. | See a map showing drone store location | Works as expected |
 
-![where](wherelocated1.png)
+![where](readme/user_stories_screens/where_home.png)
+![where](readme/user_stories_screens/where_contact.png)
+![where](readme/user_stories_screens/where_located.png)
+![where](readme/user_stories_screens/where_map.png)
 
 - As a first time user, I want to see actual footage from the drone.
+  
 | Feature | Action | Result | Expected Result
 |:-----------|:------:|:------:|------------:|
-|Navbar| Choose from the nav bar Gallery:, scroll down | Visible gallery with scroll bars | Works as expected |
-  
+|Navbar | Choose from the nav bar Gallery: scroll down | Visible gallery with scroll bars (click one of the bar to scroll) | Works as expected | |
+
+![gellery](readme/user_stories_screens/gallery.png)
+![gellery](readme/user_stories_screens/galerry_look.png)
+![gellery](readme/user_stories_screens/gallery_buttons.png)
+![gellery](readme/user_stories_screens/gallery_change.png)
+
+-As a first time user, I want to see video footage.
+
+| Feature | Action | Result | Expected Result
+|:-----------|:------:|:------:|------------:|
+|Home Page| Scroll down the page until you will see youtube player inbeded. | Visible video player | Works as expected | |
+
+![video](readme/user_stories_screens/video_location.png)
+![video](readme/user_stories_screens/video_play.png)
 
 - As a first time user, I want to know the prices and more about types as well as uses of a drone.
 
@@ -329,7 +362,19 @@ The website was tested on following browsers:
 |Navbar| Choose from the nav bar Commercial for comerrcial drones and scroll down to see drone types, description and prices next to specific drone. | Visible prices ranges | Works as expected | |
 |Navbar| Choose from the nav bar Hobby for hobby drones and scroll down to see drone types, description and prices next to specific drone. |Visible prices ranges | Works as expected | |
 
-![kinds](kinds1.png)
+![types](readme/user_stories_screens/drone_types.png)
+
+### COMMERCIAL
+![types](readme/user_stories_screens/commercial_type1.png)
+![types](readme/user_stories_screens/commercial_type2.png)
+![types](readme/user_stories_screens/commercial_type3.png)
+![types](readme/user_stories_screens/commercial_type4.png)
+### HOBBY
+![types](readme/user_stories_screens/hobby_type1.png)
+![types](readme/user_stories_screens/hobby_type2.png)
+![types](readme/user_stories_screens/hobby_type3.png)
+![types](readme/user_stories_screens/hobby_type4.png)
+![types](readme/user_stories_screens/hobby_type5.png)
 
 #### RETURNING USER:
 
@@ -339,7 +384,10 @@ The website was tested on following browsers:
 |:--------|:------:|:------:|---------------:|
 Navbar| Choose "Contact" scroll down to see the map with pinned location | Visible google map from with motorway connections | Works as expected|
 
-![kinds](kinds1.png)
+![location](readme/user_stories_screens/where_home.png)
+![location](readme/user_stories_screens/where_contact.png)
+![location](readme/user_stories_screens/where_located.png)
+![location](readme/user_stories_screens/where_map.png)
 
 - As a returning user, I want to easily contact the shop.
 
@@ -347,8 +395,10 @@ Navbar| Choose "Contact" scroll down to see the map with pinned location | Visib
 |:--------|:------:|:------:|---------------:|
 Navbar| Choose "Contact" scroll down to see the address | Visible address | Works as expected|
 
-![where](wherelocated1.png)
-
+![contact](readme/user_stories_screens/where_home.png)
+![contact](readme/user_stories_screens/where_contact.png)
+![contact](readme/user_stories_screens/form1.png)
+![contact](readme/user_stories_screens/form2.png)
 
 - As a returning user, I want to find the drone shop on social media.
 
@@ -356,7 +406,8 @@ Navbar| Choose "Contact" scroll down to see the address | Visible address | Work
 |:--------|:------:|:------:|---------------:|
 Footer| Scroll down to see the footer with social media pages. | Visible footer and clickable logos | Works as expected|
 
-![social](social1.png)
+![social](readme/user_stories_screens/social2.png)
+![social](readme/user_stories_screens/social1.png)
 
 
 #### Site Owner
@@ -377,7 +428,28 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Map | Use navigation bar and click "contact" scroll down to the bottom of the page | Visible google map | Works as expected|
 | Logo | From any page click logo on top of the page to comeback to home| Click logo | Works as expected |
 
-![biz](biz1.png)
+![biz](readme/user_stories_screens/video_location.png)
+![biz](readme/user_stories_screens/video_play.png)
+![biz](readme/user_stories_screens/social1.png)
+
+
+![biz](readme/user_stories_screens/drone_types.png)
+![biz](readme/user_stories_screens/commercial_type1.png)
+![biz](readme/user_stories_screens/hobby_type1.png)
+
+
+![biz](readme/user_stories_screens/gallery.png)
+![biz](readme/user_stories_screens/galerry_look.png)
+
+
+![biz](readme/user_stories_screens/where_home.png)
+![biz](readme/user_stories_screens/form1.png)
+![biz](readme/user_stories_screens/where_located.png)
+![biz](readme/user_stories_screens/where_map.png)
+
+
+![biz](readme/user_stories_screens/logo.png)
+
 
 
 
@@ -388,14 +460,19 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 | Hobby | Chose Hobby from the nav bar and scroll down | Visible hobby drone types | Works as expected |
 | Commercial | Choose Commercial from the nav bar and scroll down | Visible commercial drones | Works as expected |
 
-![kinds](kinds1.png)
+![kinds](readme/user_stories_screens/drone_types.png)
+### Commercial
+![kinds](readme/user_stories_screens/commercial_type1.png)
+![kinds](readme/user_stories_screens/commercial_type2.png)
+![kinds](readme/user_stories_screens/commercial_type3.png)
+![kinds](readme/user_stories_screens/commercial_type4.png)
 
-![kinds](kinds2.png)
-![kinds](kinds3.png)
-![kinds](kinds4.png)
-![kinds](kinds5.png)
-![kinds](kinds6.png)
-![kinds](kinds7.png)
+### Hobby
+![kinds](readme/user_stories_screens/hobby_type1.png)
+![kinds](readme/user_stories_screens/hobby_type2.png)
+![kinds](readme/user_stories_screens/hobby_type3.png)
+![kinds](readme/user_stories_screens/hobby_type4.png)
+![kinds](readme/user_stories_screens/hobby_type5.png)
 
 - As the site owner, I want the users to be able to contact us.
 
@@ -403,9 +480,9 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible contact details | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated5.png)
+![contact](readme/user_stories_screens/where_home.png)
+![contact](readme/user_stories_screens/where_contact.png)
+![contact](readme/user_stories_screens/form2.png)
 
 
 - As the site owner, I want the users to be able to find us.
@@ -414,9 +491,9 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible map | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated6.png)
+![map](readme/user_stories_screens/where_home.png)
+![map](readme/user_stories_screens/where_contact.png)
+![map](readme/user_stories_screens/where_map.png)
 
 - As the site owner, I want to capture new busness with the contact form and store data safely.
 
@@ -424,10 +501,10 @@ Footer| Scroll down to see the footer with social media pages. | Visible footer 
 |:--------|:------:|:------:|---------------:|
 | Contact | Click contact to the nav bar and scroll down | Visible contact form | Works as expected |
 
-![where](wherelocated1.png)
-![where](wherelocated2.png)
-![where](wherelocated3.png)
-![where](wherelocated4.png)
+![form](readme/user_stories_screens/where_home.png)
+![form](readme/user_stories_screens/where_contact.png)
+![form](readme/user_stories_screens/form1.png)
+
 
 
 # Future Features
@@ -471,7 +548,7 @@ In the future, i would like to add the following features:
 
 - There was no too long code taken from anywhere this is why I will not include anything here. Everythin borrowed from external source is marked within the HTML / CSS code.
 - The gallery was created by following Youtube tutorial and its completed with HTML and CSS only without involvment of JavaScript.
-- Code was in 95% written by myself.
+- Code was in 95% written by myself (the percentage is just an indicator).
 
 # Acknowledgements
 
