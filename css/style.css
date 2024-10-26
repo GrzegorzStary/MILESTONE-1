@@ -24,7 +24,7 @@
         padding: 2%;
         
     }
-
+    /* class CSS BY ME*/
     .drone_type {
         margin-left: 10%;
     }
@@ -43,7 +43,7 @@
             border-bottom: 20px
         }
 
-        /* NAV CSS BY ME*/
+        /* nav and a styled with help of this video url(https://www.youtube.com/watch?v%3DPwWHL3RyQgk%26t%3D400s)*/
 
     nav {
         display: flex;
@@ -60,7 +60,7 @@
         color: white;
         font-size: 20px;
     }
-
+    /* class CSS BY ME*/
     .drones_right {
         margin-left: 10%;
         display: flex;
@@ -74,7 +74,7 @@
         padding: 10px;
         border-radius: 5px;
     }
-
+    /* class CSS BY ME*/
     .drones_left {
         margin-left: 10%;
         display: flex;
@@ -88,11 +88,11 @@
         padding: 10px;
         border-radius: 5px;
     }
-
+    /* class CSS BY ME*/
     .drone_text {
         width: 50%;
     }
-
+    /* class CSS BY ME*/
     .drone_images {
         width: 40%;
         height: 250px;
@@ -100,7 +100,7 @@
         max-width: 100%;
         border: solid 2px;
     }
-
+    /* class CSS BY ME*/
     .submit {
         display: flex;
         font-size: 20px;
@@ -109,12 +109,14 @@
         border-radius: 50px;
         background-color: white
 }
+    /* class CSS BY ME*/
     .submit:hover {
         color: white;
         background-color: #053d42;
         transition: all ease 0.5s;
 
     }
+    /* class for navbar button url(https://www.youtube.com/watch?v%3DPwWHL3RyQgk%26t%3D400s)*/
     .button {
         font-size: 20px;
         font-weight: 800;
