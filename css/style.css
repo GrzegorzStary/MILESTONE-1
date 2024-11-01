@@ -552,7 +552,8 @@
         }
 
         .slider-nav a {
-            width: 20px;
+            width: 25px;
+            height: 8px
         }
 
         .container {
