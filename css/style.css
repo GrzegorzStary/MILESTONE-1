@@ -560,6 +560,11 @@
             max-width: 100%;
             margin-right: 20px;
         }
+
+        section.container {
+            margin-left: -1rem;
+        }
+        
         .drones_right {
         
             flex-direction: column;        
