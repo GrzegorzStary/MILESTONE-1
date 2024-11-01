@@ -555,6 +555,6 @@ In the future, i would like to add the following features:
 - Firstly I would like to thank to myself for perstistance and not giving up in creating this project.
 - Big thank you to the Code Institute and my Teacher Ross Phillips for providing me with easy to understand knowledge.
 - Thank you to my mentor Gareth for providing me with important feedback, as well as improvement ideas.
-- Thank to my wife for taking care of our child so that I culd focus and make that website happen.
+- Thank to my wife for taking care of our child so that I could focus and make that website happen.
 - Thank you for my web developer friend from Turkey who actually spent some time to test my page and gave me important feedback what could go wrong.
 - Thank you to all the people that found little bit of time in theirs busy lifes to test my website and give me some ideas what could be changed and adjusted.
